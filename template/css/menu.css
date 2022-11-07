@@ -19,8 +19,6 @@ main{
     position:fixed;
     width: 100%;
     z-index: 5;
-    /* max-width:1500px; */
-    margin: 0 auto;
     background-color:white;
     box-shadow: 0 0 6px 0  rgb(226, 226, 226);
 }
@@ -38,7 +36,7 @@ main{
 }
 
 .m--50{
-    margin:15px 0px 30px;
+    margin:15px 30px 30px;
 }
 
 
@@ -75,6 +73,7 @@ main{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .nav-item-menu{
@@ -103,6 +102,7 @@ align-items: center;
 .nav-item-b a{
     color: #696969;
     cursor:pointer;
+
     font-size:14px;
     text-decoration: none;
 }
@@ -115,6 +115,21 @@ align-items: center;
     color: #696969;
     cursor:pointer;
     gap:4px;
+}
+
+.account{
+    cursor:pointer;
+}
+
+.nav-text-box a {
+    font-size:14px;
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-text-box p{
+    text-decoration: none;
+
 }
 
 .nav-text-box img{
@@ -139,14 +154,27 @@ align-items: center;
 }
 
 .btn-nav{
-    background-color:#FFBC0D;
-    color:black;
+    
     padding: 10px 20px;
     cursor:pointer;
     border-radius: 2px;
 }
 
-.btn-nav:hover{
+.yellow{
+    background-color:#FFBC0D;
+    color: white;
+}
+
+.red{
+    background-color:#DB0107;
+    color: white;
+}
+
+.red:hover{
+    background-color:#c50007
+}
+
+.yellow:hover{
     background-color:#fdb500;
 
 }
@@ -157,20 +185,19 @@ align-items: center;
     display: flex;
     list-style: none;
     font-size:14px;
+    text-decoration: none;
 }
 
 .list-inline a{
     cursor:pointer;
-    color: #696969;
     text-decoration: none;
-    text-decoration-line: none;
+    color: #696969;
 }
 
 .list-inline  a:hover{
-    color: #303030;
-    text-decoration: none
-
+    color: #303030
 }
+
 
 
 .banner-s{

@@ -9,6 +9,7 @@ main{
     padding-top:132px
 }
 
+
 .nav{
     position:fixed;
     width: 100%;
@@ -30,7 +31,7 @@ main{
 }
 
 .m--50{
-    margin:15px 0px 30px;
+    margin:15px 30px 30px;
 }
 
 
@@ -111,6 +112,21 @@ align-items: center;
     gap:4px;
 }
 
+.account{
+    cursor:pointer;
+}
+
+.nav-text-box a {
+    font-size:14px;
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-text-box p{
+    text-decoration: none;
+
+}
+
 .nav-text-box img{
     height:20px
 }
@@ -133,14 +149,27 @@ align-items: center;
 }
 
 .btn-nav{
-    background-color:#FFBC0D;
-    color:black;
+    
     padding: 10px 20px;
     cursor:pointer;
     border-radius: 2px;
 }
 
-.btn-nav:hover{
+.yellow{
+    background-color:#FFBC0D;
+    color: white;
+}
+
+.red{
+    background-color:#DB0107;
+    color: white;
+}
+
+.red:hover{
+    background-color:#c50007
+}
+
+.yellow:hover{
     background-color:#fdb500;
 
 }
@@ -163,6 +192,7 @@ align-items: center;
 .list-inline  a:hover{
     color: #303030
 }
+
 
 
 .banner-s{
