@@ -1,0 +1,726 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width:1500px;
+    text-decoration: none;
+}
+
+main{
+    padding-top:132px;
+    width: 100%;
+}
+
+.nav{
+    position:fixed;
+    width: 100%;
+    z-index: 5;
+    background-color:white;
+    box-shadow: 0 0 6px 0  rgb(226, 226, 226);
+}
+
+.row{
+    display: flex;
+}
+
+.nav-header{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding:5px 0 2px;
+}
+
+.m--50{
+    margin:15px 30px 30px;
+}
+
+
+.nav-row{
+    width: 100%;
+    display: flex;
+    gap: 0;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.nav-img{
+    margin-top: 10px;
+}
+
+.nav-item-c{
+    display: flex;
+    margin: 8px 30px 0px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.nav-item-wrapper{
+    display: flex;
+}
+
+.nav-item-b{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.nav-item-b li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-item-menu{
+    color: #696969;
+    font-size:14px;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.gap-15{
+    gap: 30px;
+}
+
+.just-item-center{
+align-items: center;
+}
+
+.nav-item-menu:hover{
+    color: #303030
+}
+
+.w-100-m-400{
+    width: 100%;
+    min-width: 400px;
+}
+.nav-item-b a{
+    color: #696969;
+    cursor:pointer;
+
+    font-size:14px;
+    text-decoration: none;
+}
+
+.nav-item-b a:hover{
+    color: #303030
+}
+
+.nav-text-box{
+    color: #696969;
+    cursor:pointer;
+    gap:4px;
+}
+
+.account{
+    cursor:pointer;
+}
+
+.nav-text-box a {
+    font-size:14px;
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-text-box p{
+    text-decoration: none;
+
+}
+
+.nav-text-box img{
+    height:20px
+}
+
+.fs-14{
+    font-size:14px;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav-text-box :hover{
+    color: #303030
+}
+
+.btn{
+    outline:none;
+    border: none;
+}
+
+.btn-nav{
+    
+    padding: 10px 20px;
+    cursor:pointer;
+    border-radius: 2px;
+}
+
+.yellow{
+    background-color:#FFBC0D;
+    color: white;
+}
+
+.red{
+    background-color:#DB0107;
+    color: white;
+}
+
+.red:hover{
+    background-color:#c50007
+}
+
+.yellow:hover{
+    background-color:#fdb500;
+
+}
+
+.list-inline{
+    gap: 30px ;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    font-size:14px;
+    text-decoration: none;
+}
+
+.list-inline a{
+    cursor:pointer;
+    text-decoration: none;
+    color: #696969;
+}
+
+.list-inline  a:hover{
+    color: #303030
+}
+
+
+.banner-c{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-b{
+    width: 100%;
+    height: 500px;
+}
+
+.banner-b img {
+    width: 100%;
+    max-height: 500px;
+    height:100%;
+    object-fit: fill;
+}
+
+.promo-c{
+    width: 100%;
+    padding: 20px 0;
+    height: 100%;
+}
+
+.promo-w{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0 0px;
+}
+
+.promo-w h2{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.promo-content-c{
+    width:80%;
+    text-align: center;
+    margin: 25px auto 0;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+}
+
+.promo-box{
+    width:100%;
+    border-radius: 10px;
+    cursor:pointer;
+    max-width: 400px;
+    padding: 20px 0;
+    background-color: #FFFFFF;
+}
+
+.promo-box:hover{
+    box-shadow: 4px 4px 7px 1px #eeeeee
+}
+
+
+/* .promo-box :hover{
+    background-color: #e7e7e7;
+
+} */
+
+.promo-box-img{
+    width:90%;
+    margin: 0 auto;
+}
+
+.promo-box-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.promo-box-text{
+    text-align: left;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.promo-box-text h2{
+    font-size: 20px;
+}
+
+.promo-box-text p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.promo-box-text-footer{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.promo-btn{
+    width: 100%;
+    margin:40px 0
+}
+
+.promo-btn button{
+    background-color: rgb(233, 21, 21);
+    color:white;
+    outline: none;
+    padding:12px 20px;
+    font-size: 16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px 1px rgb(211, 24, 24);
+}
+
+.promo-btn button:hover {
+    background-color: rgb(216, 17, 17);
+
+}
+
+.favorite-menu-c{
+    width: 100%;
+    background-color : #FAFAFA;
+    padding: 30px 0 50px;
+    height: 100%;
+}
+
+.favorite-menu-w{
+    width:80%;
+    text-align: center;
+    margin: 25px auto 0;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.favorite-menu-w h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+.favorite-menu-content-c{
+    width:100%;
+    /* text-align: center; */
+    margin: 25px auto 0;
+    display:flex;
+    gap: 50px;
+    overflow-x: scroll;
+}
+
+.favorite-menu-btn button{
+    background-color: rgb(233, 21, 21);
+    color:white;
+    outline: none;
+    padding:12px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px 1px rgb(211, 24, 24);
+}
+
+.favorite-menu-btn button:hover{
+    background-color: rgb(216, 17, 17);
+}
+
+.favorite-menu-box{
+    width: 100%;
+    max-width:240px;
+    display:flex;
+    height:100%;
+    flex-direction:column;
+    margin-bottom: 10px;
+}
+
+.favorite-menu-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.favorite-menu-box a{
+    color: #303030;
+    text-decoration: none;
+}
+
+.favorite-menu-box a:hover{
+
+    box-shadow: 4px 4px 7px 1px #eeeeee
+}
+
+
+
+.favorite-menu-img{
+    width: 100%;
+}
+
+.favorite-menu-img img{
+    width: 80%;
+    min-width: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+.kids-world-c{
+    width: 100%;
+    padding:70px 0;
+    background-color:#FFBC0D
+}
+
+.kids-world-w{
+    width: 80%;
+    margin: 0 auto;
+    justify-content:space-between;
+    display: flex;
+}
+
+.kids-world-img{
+    height:100%;
+}
+
+.kids-world-img img{
+    height:400px;
+}
+
+.kids-world-text{
+    margin: auto 30px;
+    align-items: center;
+}
+
+.kids-world-text h1{
+    font-weight: 600;
+}
+
+
+.kids-world-btn button{
+    background-color: rgb(233, 21, 21);
+    color:white;
+    outline: none;
+    padding:12px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px 1px rgb(211, 24, 24);
+}
+
+
+.app-c{
+    width: 100%;
+    background-color:#eeeeee
+}
+
+.app-w{
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.app-text{
+    width: 100%;
+    max-width: 700px;
+    font-weight: 700;
+    align-items:center;
+    margin: 40px 0 auto;
+    max-width:500px
+}
+
+.app-text h1{
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+
+.app-img{
+    text-align:right;
+    width: 100%;
+}
+
+.app-img img{
+    width: 400px
+}
+
+.app-text-img img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.instagram-c{
+    background-color: #333333;
+    width: 100%;
+    padding: 50px 0;
+    color: white
+}
+
+.instagram-w{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-between
+}
+
+.instagram-w h1{
+    margin: 6px 0 0;
+}
+
+.instagram-w button{
+    background-color: rgb(233, 21, 21);
+    color:white;
+    outline: none;
+    padding:0px 20px;
+    margin: 0px 0;
+    font-size: 16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px 1px rgb(211, 24, 24);
+}
+
+.ad-c{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.ad-c img{
+    width: 260px;
+    
+}
+
+
+.carrer-c{
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+}
+
+.carrer-w{
+    height: 100%;
+    background-image: url("https://mcdonalds.co.id/images/banner-new-desktop.jpg?e5050ad30f6e116560fa04f3b1f08066") ;
+    background-size: cover;
+}
+
+.carrer-text{
+    width: 100%;
+    padding:200px 0;
+    position:relative;
+}
+
+
+.carrer-text-c{
+    position : absolute;
+    right: 50%;
+    left: 50%;
+    top: 20%;
+    bottom: 50%;
+    width: 30%;
+}
+
+.carrer-text-c p{
+    font-size: 12px;
+}
+
+.carrer-btn button{
+    background-color: rgb(233, 21, 21);
+    color:white;
+    outline: none;
+    padding:8px 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px 1px rgb(211, 24, 24);
+}
+
+.carrer-btn button:hover{
+    background-color: rgb(216, 17, 17);
+}
+
+.footer-c{
+    width: 100%;
+}
+
+.footer-w{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 35px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer-b1{
+    margin: 40px 0;
+}
+
+.footer-b1 h3{
+    margin: 10px 0;
+}
+
+
+.footer-b1-list-menu{
+    display: flex;
+    gap:80px;
+}
+
+.footer-b1-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.footer-b1-list-menu li{
+    cursor: pointer;
+    color: #696969;
+}
+
+.footer-b1-list-menu li:hover{
+    color: #444444;
+}
+
+.footer-b2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 20px;
+}
+
+.footer-b2 h3{
+    margin: 10px 0;
+}
+
+
+.footer-b2-list-sc{
+    display: flex;
+    /* gap: 20px; */
+}
+
+.footer-b2-list-sc li{
+    list-style: none;
+}
+
+.footer-b2-list-sc img{
+    height:28px;
+    cursor:pointer;
+}
+
+
+.m-10{
+    margin: 0 20px;
+}
+
+
+.footer-b2-list-app-store img{
+    width: 110px;
+    cursor: pointer;
+}
+
+
+.footer-b3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 20px;
+}
+
+.footer-b3 h3{
+    margin: 10px 0;
+}
+
+.footer-form{
+    width: 100%;
+    display: flex;
+}
+
+.footer-form input{
+    width: 70%;
+    background-color:white;
+    padding: 10px  10px;
+    border: 1px solid #a1a1a1;
+}
+
+
+.footer-form button{
+    background-color:#DB0107;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+
+.footer-form button:hover{
+    background-color: rgb(216, 17, 17);
+}
+
+.footer-f-c{
+    background-color:#f8f8f8;
+    width: 100%;
+}
+
+.footer-f{
+    padding: 20px 0;
+    display: flex;
+    width:85%;
+    font-size: 14px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+
+.footer-f-2 span{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer-f-2 span:hover{
+    color: #FFBC0D;
+}
